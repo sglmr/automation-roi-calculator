@@ -316,7 +316,7 @@
             const recommendationEl = document.getElementById('recommendation');
             if (netSavings > 0 && breakeven < timeframe) {
                 recommendationEl.className = 'recommendation recommend-automate';
-                recommendationEl.textContent = `Recommendation: Automate the process. You'll break even in ${breakeven.toFixed(1)} months and save ${formatNumber(netSavings)} over ${timeframe} months.`;
+                recommendationEl.textContent = `Recommendation: Automate the process. You'll break even in ${breakeven.toFixed(1)} months and save $${formatNumber(netSavings)} over ${timeframe} months.`;
             } else {
                 recommendationEl.className = 'recommendation recommend-manual';
                 recommendationEl.textContent = `Recommendation: Keep the process manual. Automation costs exceed potential savings over ${timeframe} months.`;
