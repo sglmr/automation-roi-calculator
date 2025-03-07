@@ -58,4 +58,4 @@ MIT License
 
 ---
 
-Built with HTML, CSS, and vanilla JavaScript.
+Built with HTML, CSS, and vanilla JavaScript. 
